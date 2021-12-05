@@ -1,4 +1,4 @@
-### Should I capable of doing this 15 years ago, I would not have wasted these 15 years in wondering around. 
+### Should I capable of doing this 15 years ago, I would not have wasted these 15 years. 
 
 ![Naive Bayes in Text Classification](/naive-bayes.pdf)
 
