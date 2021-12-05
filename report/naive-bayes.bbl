@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+
+\bibitem{ontology-learning}
+Maedche A. and Staab S.
+\newblock {\em Handbook on Ontologies}, chapter Ontology Learning.
+\newblock International Handbooks on Information Systems, Springer, Berlin,
+  Heidelberg, 2004.
+\newblock URL: \url{https://doi.org/10.1007/978-3-540-24750-0_9}.
+
+\bibitem{chen2009feature}
+Jingnian Chen, Houkuan Huang, Shengfeng Tian, and Youli Qu.
+\newblock Feature selection for text classification with na{\"\i}ve bayes.
+\newblock {\em Expert Systems with Applications}, 36(3):5432--5435, 2009.
+
+\bibitem{chowdhury2003natural}
+Gobinda~G Chowdhury.
+\newblock Natural language processing.
+\newblock {\em Annual review of information science and technology},
+  37(1):51--89, 2003.
+
+\bibitem{dai2007transferring}
+Wenyuan Dai, Gui-Rong Xue, Qiang Yang, and Yong Yu.
+\newblock Transferring naive bayes classifiers for text classification.
+\newblock In {\em AAAI}, volume~7, pages 540--545, 2007.
+
+\bibitem{kim2006some}
+Sang-Bum Kim, Kyoung-Soo Han, Hae-Chang Rim, and Sung~Hyon Myaeng.
+\newblock Some effective techniques for naive bayes text classification.
+\newblock {\em IEEE transactions on knowledge and data engineering},
+  18(11):1457--1466, 2006.
+
+\bibitem{feature-selection-and-extraction}
+David~D Lewis.
+\newblock Feature selection and feature extraction for text categorization.
+\newblock In {\em Speech and Natural Language: Proceedings of a Workshop Held
+  at Harriman, New York, February 23-26, 1992}, 1992.
+
+\bibitem{mccallum1998comparison}
+Andrew McCallum, Kamal Nigam, et~al.
+\newblock A comparison of event models for naive bayes text classification.
+\newblock In {\em AAAI-98 workshop on learning for text categorization}, volume
+  752, pages 41--48. Citeseer, 1998.
+
+\bibitem{trec}
+NIST.
+\newblock {Text Retrival Conference (TREC)}.
+\newblock URL: \url{https://trec.nist.gov/}.
+
+\bibitem{wim2005}
+Junyu Niu, Lin Sun, and etc.
+\newblock Wim at trec 2005.
+\newblock In {\em Text Retrieval Conference (TREC)}. NIST, 2005.
+\newblock URL:
+  \url{https://trec.nist.gov/pubs/trec14/papers/fudanu-sun.geo.ent.pdf}.
+
+\bibitem{stopwords-list}
+ranks.nl.
+\newblock {Stopwords list}.
+\newblock URL: \url{https://www.ranks.nl/stopwords}.
+
+\bibitem{corpus}
+Jason Rennie.
+\newblock 20 newsgroup messages.
+\newblock URL:
+  \url{https://www.cs.cmu.edu/afs/cs/project/theo-11/www/naive-bayes.html}.
+
+\bibitem{semantic-text-classification}
+Bloehdorn S. and Hotho A.
+\newblock {\em Advances in Web Mining and Web Usage Analysis}, chapter Boosting
+  for Text Classification with Semantic Features.
+\newblock WebKDD 2004. Lecture Notes in Computer Science, Springer, Berlin,
+  Heidelberg, 2006.
+\newblock URL: \url{https://doi.org/10.1007/11899402_10}.
+
+\bibitem{is-nb-good}
+S.L. Ting, W.H. Ip, and Albert~H.C. Tsang.
+\newblock Is naïve bayes a good classifier for document classification?
+\newblock {\em International journal of software engineering and its
+  applications}, 5(3):37--46, 2011.
+
+\bibitem{vicient2013automatic}
+Carlos Vicient, David S{\'a}nchez, and Antonio Moreno.
+\newblock An automatic approach for ontology-based feature extraction from
+  heterogeneous textualresources.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  26(3):1092--1106, 2013.
+
+\bibitem{wang2003comparative}
+Bill~B Wang, RI~Bob Mckay, Hussein~A Abbass, and Michael Barlow.
+\newblock A comparative study for domain ontology guided feature extraction.
+\newblock In {\em Proceedings of the 26th Australasian computer science
+  conference-Volume 16}, pages 69--78, 2003.
+
+\bibitem{bag-of-words}
+Wikipedia.
+\newblock {Bag-of-words}.
+\newblock URL: \url{https://en.wikipedia.org/wiki/Bag-of-words_model}.
+
+\bibitem{bayes-rule}
+Wikipedia.
+\newblock {Bayes Rule}.
+\newblock URL: \url{https://en.wikipedia.org/wiki/Bayes%27_theorem}.
+
+\bibitem{cross-validation}
+Wikipedia.
+\newblock {Cross Validation}.
+\newblock URL:
+  \url{https://en.wikipedia.org/wiki/Cross-validation_(statistics)}.
+
+\bibitem{document-cleaning}
+Oren Zamir and Oren Etzioni.
+\newblock Web document clustering: A feasibility demonstration.
+\newblock In {\em Proceedings of the 21st annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  46--54, 1998.
+
+\end{thebibliography}

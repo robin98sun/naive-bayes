@@ -1,0 +1,78 @@
+dir: ./20_newsgroups
+strategy: alternative
+direction: asc
+training percentage: 50
+shift: 9
+stop words: ./src/stop_words-long.txt
+term threshold: 0.0
+use term frequency to predict: False
+smoothing factor: 0.5
+splitting corpus...
+class: talk.politics.mideast, path: ./20_newsgroups/talk.politics.mideast, training set size: 500, testing set size: 500
+class: rec.autos, path: ./20_newsgroups/rec.autos, training set size: 500, testing set size: 500
+class: comp.sys.mac.hardware, path: ./20_newsgroups/comp.sys.mac.hardware, training set size: 500, testing set size: 500
+class: alt.atheism, path: ./20_newsgroups/alt.atheism, training set size: 500, testing set size: 500
+class: rec.sport.baseball, path: ./20_newsgroups/rec.sport.baseball, training set size: 500, testing set size: 500
+class: comp.os.ms-windows.misc, path: ./20_newsgroups/comp.os.ms-windows.misc, training set size: 500, testing set size: 500
+class: rec.sport.hockey, path: ./20_newsgroups/rec.sport.hockey, training set size: 500, testing set size: 500
+class: sci.crypt, path: ./20_newsgroups/sci.crypt, training set size: 500, testing set size: 500
+class: sci.med, path: ./20_newsgroups/sci.med, training set size: 500, testing set size: 500
+class: talk.politics.misc, path: ./20_newsgroups/talk.politics.misc, training set size: 500, testing set size: 500
+class: rec.motorcycles, path: ./20_newsgroups/rec.motorcycles, training set size: 500, testing set size: 500
+class: comp.windows.x, path: ./20_newsgroups/comp.windows.x, training set size: 500, testing set size: 500
+class: comp.graphics, path: ./20_newsgroups/comp.graphics, training set size: 500, testing set size: 500
+class: comp.sys.ibm.pc.hardware, path: ./20_newsgroups/comp.sys.ibm.pc.hardware, training set size: 500, testing set size: 500
+class: sci.electronics, path: ./20_newsgroups/sci.electronics, training set size: 500, testing set size: 500
+class: talk.politics.guns, path: ./20_newsgroups/talk.politics.guns, training set size: 500, testing set size: 500
+class: sci.space, path: ./20_newsgroups/sci.space, training set size: 500, testing set size: 500
+class: soc.religion.christian, path: ./20_newsgroups/soc.religion.christian, training set size: 499, testing set size: 498
+class: misc.forsale, path: ./20_newsgroups/misc.forsale, training set size: 500, testing set size: 500
+class: talk.religion.misc, path: ./20_newsgroups/talk.religion.misc, training set size: 500, testing set size: 500
+corpus is splitted
+
+learning the training set...
+class: talk.politics.mideast, training sample amount: 500, terms: 20516
+class: rec.autos, training sample amount: 500, terms: 13601
+class: comp.sys.mac.hardware, training sample amount: 500, terms: 11608
+class: alt.atheism, training sample amount: 500, terms: 13470
+class: rec.sport.baseball, training sample amount: 500, terms: 12888
+class: comp.os.ms-windows.misc, training sample amount: 500, terms: 21429
+class: rec.sport.hockey, training sample amount: 500, terms: 16097
+class: sci.crypt, training sample amount: 500, terms: 15629
+class: sci.med, training sample amount: 500, terms: 17838
+class: talk.politics.misc, training sample amount: 500, terms: 19135
+class: rec.motorcycles, training sample amount: 500, terms: 13291
+class: comp.windows.x, training sample amount: 500, terms: 18244
+class: comp.graphics, training sample amount: 500, terms: 17434
+class: comp.sys.ibm.pc.hardware, training sample amount: 500, terms: 13301
+class: sci.electronics, training sample amount: 500, terms: 13845
+class: talk.politics.guns, training sample amount: 500, terms: 16254
+class: sci.space, training sample amount: 500, terms: 16769
+class: soc.religion.christian, training sample amount: 499, terms: 15303
+class: misc.forsale, training sample amount: 500, terms: 13471
+class: talk.religion.misc, training sample amount: 500, terms: 15996
+training matrix shape: (20, 169628)
+consumed 12.1 seconds to train
+
+class [talk.politics.mideast] correct: 492 in 500 samples, correct rate: 0.984, largest error: ('talk.politics.misc', 0.014)
+class [rec.autos] correct: 453 in 500 samples, correct rate: 0.906, largest error: ('talk.politics.misc', 0.042)
+class [comp.sys.mac.hardware] correct: 430 in 500 samples, correct rate: 0.86, largest error: ('talk.politics.misc', 0.026)
+class [alt.atheism] correct: 378 in 500 samples, correct rate: 0.756, largest error: ('talk.religion.misc', 0.15)
+class [rec.sport.baseball] correct: 478 in 500 samples, correct rate: 0.956, largest error: ('talk.politics.misc', 0.024)
+class [comp.os.ms-windows.misc] correct: 392 in 500 samples, correct rate: 0.784, largest error: ('comp.graphics', 0.07)
+class [rec.sport.hockey] correct: 496 in 500 samples, correct rate: 0.992, largest error: ('talk.politics.misc', 0.004)
+class [sci.crypt] correct: 476 in 500 samples, correct rate: 0.952, largest error: ('talk.politics.misc', 0.022)
+class [sci.med] correct: 463 in 500 samples, correct rate: 0.926, largest error: ('talk.politics.misc', 0.04)
+class [talk.politics.misc] correct: 410 in 500 samples, correct rate: 0.82, largest error: ('talk.politics.mideast', 0.066)
+class [rec.motorcycles] correct: 470 in 500 samples, correct rate: 0.94, largest error: ('talk.politics.misc', 0.022)
+class [comp.windows.x] correct: 459 in 500 samples, correct rate: 0.918, largest error: ('comp.graphics', 0.036)
+class [comp.graphics] correct: 458 in 500 samples, correct rate: 0.916, largest error: ('talk.politics.misc', 0.018)
+class [comp.sys.ibm.pc.hardware] correct: 456 in 500 samples, correct rate: 0.912, largest error: ('comp.graphics', 0.018)
+class [sci.electronics] correct: 427 in 500 samples, correct rate: 0.854, largest error: ('sci.crypt', 0.044)
+class [talk.politics.guns] correct: 456 in 500 samples, correct rate: 0.912, largest error: ('talk.politics.misc', 0.06)
+class [sci.space] correct: 473 in 500 samples, correct rate: 0.946, largest error: ('talk.politics.misc', 0.03)
+class [soc.religion.christian] correct: 495 in 498 samples, correct rate: 0.9939759036144579, largest error: ('talk.politics.mideast', 0.004016064257028112)
+class [misc.forsale] correct: 353 in 500 samples, correct rate: 0.706, largest error: ('talk.politics.misc', 0.058)
+class [talk.religion.misc] correct: 244 in 500 samples, correct rate: 0.488, largest error: ('alt.atheism', 0.212)
+consumed 184 seconds to test
+

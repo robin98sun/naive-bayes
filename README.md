@@ -1,0 +1,1 @@
+![naive bayes paper](/naive-bayes.pdf "Naive Bayes in Text Classification")

@@ -1,0 +1,22 @@
+{
+    "alt.atheism": 0.742,
+    "comp.graphics": 0.872,
+    "comp.os.ms-windows.misc": 0.824,
+    "comp.sys.ibm.pc.hardware": 0.912,
+    "comp.sys.mac.hardware": 0.86,
+    "comp.windows.x": 0.92,
+    "misc.forsale": 0.71,
+    "rec.autos": 0.898,
+    "rec.motorcycles": 0.936,
+    "rec.sport.baseball": 0.974,
+    "rec.sport.hockey": 0.99,
+    "sci.crypt": 0.966,
+    "sci.electronics": 0.85,
+    "sci.med": 0.924,
+    "sci.space": 0.962,
+    "soc.religion.christian": 0.9959839357429718,
+    "talk.politics.guns": 0.916,
+    "talk.politics.mideast": 0.984,
+    "talk.politics.misc": 0.822,
+    "talk.religion.misc": 0.448
+}
