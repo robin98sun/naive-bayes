@@ -1,9 +1,9 @@
-# A short paper of a course project:
+# A course project report:
 ![Naive Bayes in Text Classification](/naive-bayes.pdf)
 
 ---
 
-### SVM in information retrieval
+### Recommended readings: SVM in information retrieval 
 
 ![Active Learning in Image Retrieval using SVM](/2001-SVM-IR.pdf)
 
